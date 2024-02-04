@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+   width: 390px;
+   padding: 20px;
+   margin: 20px auto;
+   background-color: white;
+}
+
+.container div {
+    padding: 20px;
+    margin: 15px;
+}
+
+.container div ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.container div h4 {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.container div h4::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #437eeb;
+    margin-left: 15px;
+    top: 10px;
+}
+
+.container .gallery .two li {
+   display: inline-block;
+}
+
+.container .gallery .two li img {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.container .gallery .two .two_img1,
+.container .gallery .two .two_img2 {
+    margin: 0;
+    padding: 0;
+}
+
+.container .category .one li,
+.container .archive .three li {
+    color: #666666;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container .category ul :not(:last-child) {
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 20px;
+}
+
+.container .category ul li span {
+   margin-left: 250px;
+   background-color: #f1f1f1;
+   padding: 5px 9px;
+   border-radius: 5px;
+   color: black;
+}
+
+.container .archive .three li span {
+    margin-right: 8px;
+    color: #747774;
+}
+
+
+
+
+
+
+
+
+
+
+
